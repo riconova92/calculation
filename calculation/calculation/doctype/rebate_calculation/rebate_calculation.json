@@ -1,0 +1,105 @@
+{
+ "autoname": "field:document_name",
+ "creation": "2020-05-04 21:08:35.208370",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sb1",
+  "month",
+  "sb1_cb1",
+  "year",
+  "sb1_cb2",
+  "document_name",
+  "sb2",
+  "customer",
+  "attn",
+  "tel",
+  "rebate_calculation_child",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "sb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "label": "Document Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "sb1_cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sb1_cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sb2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer"
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": "ATTN"
+  },
+  {
+   "fieldname": "tel",
+   "fieldtype": "Data",
+   "label": "Tel"
+  },
+  {
+   "fieldname": "rebate_calculation_child",
+   "fieldtype": "Table",
+   "options": "Rebate Calculation Child"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "read_only": 1
+  }
+ ],
+ "modified": "2020-05-04 22:42:20.143308",
+ "modified_by": "Administrator",
+ "module": "Calculation",
+ "name": "Rebate Calculation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

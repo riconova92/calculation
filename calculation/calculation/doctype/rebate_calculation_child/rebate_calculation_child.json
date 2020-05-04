@@ -1,0 +1,53 @@
+{
+ "creation": "2020-05-04 20:54:33.064016",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "branch",
+  "invoice_amount",
+  "column_d",
+  "column_e",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Branch",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "column_d",
+   "fieldtype": "Currency",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "column_e",
+   "fieldtype": "Currency",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-04 20:54:33.064016",
+ "modified_by": "Administrator",
+ "module": "Calculation",
+ "name": "Rebate Calculation Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
