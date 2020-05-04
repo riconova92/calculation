@@ -14,6 +14,8 @@ class RebateCalculation(Document):
 @frappe.whitelist()
 def sales_invoice_submit(doc,method):
 
+	# penambahan comment buat test git
+
 	rebate_setting = frappe.get_single("Rebate Setting")
 
 	# branch
