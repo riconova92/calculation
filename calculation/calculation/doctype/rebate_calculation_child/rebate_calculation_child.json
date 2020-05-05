@@ -5,7 +5,9 @@
  "field_order": [
   "branch",
   "invoice_amount",
+  "column_d_setting",
   "column_d",
+  "column_e_setting",
   "column_e",
   "amount"
  ],
@@ -38,10 +40,20 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Amount"
+  },
+  {
+   "fieldname": "column_d_setting",
+   "fieldtype": "Float",
+   "label": "Column D in %"
+  },
+  {
+   "fieldname": "column_e_setting",
+   "fieldtype": "Float",
+   "label": "Column E"
   }
  ],
  "istable": 1,
- "modified": "2020-05-04 20:54:33.064016",
+ "modified": "2020-05-05 17:13:39.709288",
  "modified_by": "Administrator",
  "module": "Calculation",
  "name": "Rebate Calculation Child",

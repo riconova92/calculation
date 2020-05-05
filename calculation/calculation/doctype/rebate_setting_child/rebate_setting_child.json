@@ -1,0 +1,43 @@
+{
+ "creation": "2020-05-05 17:22:55.267339",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_id",
+  "column_d",
+  "column_e"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer ID",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_d",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Column D in %"
+  },
+  {
+   "fieldname": "column_e",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Column E"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-05 17:22:55.267339",
+ "modified_by": "Administrator",
+ "module": "Calculation",
+ "name": "Rebate Setting Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
