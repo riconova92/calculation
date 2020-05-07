@@ -79,7 +79,7 @@ def sales_invoice_submit(doc,method):
 		elif month_angka == "12" :
 			month_huruf = "December"
 
-		kombinasi_nama = customer_name +" | "+ month_huruf + " " + month_angka
+		kombinasi_nama = customer_name +" | "+ month_huruf + " " + year
 
 		cek_dulu = frappe.get_value("Rebate Calculation", {"name":kombinasi_nama}, "name")
 
@@ -210,7 +210,7 @@ def sales_invoice_cancel(doc,method):
 		elif month_angka == "12" :
 			month_huruf = "December"
 
-		kombinasi_nama = customer_name +" | "+ month_huruf + " " + month_angka
+		kombinasi_nama = customer_name +" | "+ month_huruf + " " + year
 
 		cek_dulu = frappe.get_value("Rebate Calculation", {"name":kombinasi_nama}, "name")
 
